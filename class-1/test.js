@@ -32,10 +32,19 @@ console.log(typeof undefined); // undefined
 console.log(typeof null); // object
 
 
-let score = 32
+let score = 32;
 
 console.log(typeof score);
 
 let value = Number(score);
 console.log(typeof value);
 console.log(value);
+
+let isLoggedIn = 1;
+
+let booleanIsLoggedIn = Boolean(isLoggedIn)
+//  console.log(booleanIsLoggedIn);
+
+// 1 => true; 0 => false
+// "" => false
+// "hitesh" => true
