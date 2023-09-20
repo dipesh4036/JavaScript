@@ -56,10 +56,10 @@ console.log("2"===2);
 
 //  7 types : String, Number, Boolearn, null, undefined, Symbol, BigInt
 
-const score = 100
+// const score = 100
 const scoreValue = 100.3
 
-const isLoggedIn = false
+// const isLoggedIn = false
 const outsideTemp = null
 let userEmail;
 
@@ -89,3 +89,26 @@ const myFunction = function(){
 console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+// **************** Stack and Heap Memory ****************
+
+// Stack (primitive) and Heap (Non-primitive)
+
+let mychannel = "Hitesh";
+let newchannel = mychannel;
+newchannel = "chaiwithcode"
+// console.log(mychannel);
+// console.log(newchannel);
+
+let userone={
+    email:"dipesh@gmail.com",
+    pass:1111
+}
+let usertwo={
+    email:"user@gmail.com",
+    pass:2222
+}
+
+userone.email="usertwo@gmail.com";
+console.log(userone);
+console.log(usertwo);
